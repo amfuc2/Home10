@@ -1,8 +1,13 @@
-@import "normalize/import-now";
+@import "vendors/normalize";
 
-@import 'utils/variables';
+@import 'abstracts/variables';
 
 @import 'base/basic';
+@import 'base/typography';
+
+
+@import 'components/buttons';
+@import 'components/header';
 
 @import 'layout/grid';
 @import 'layout/header';
