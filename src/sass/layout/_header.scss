@@ -1,11 +1,13 @@
 .centralize-logo {
-  text-align: center;
-  margin-top: 0;
-  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 header {
   margin: 0 auto;
+  padding: 10px 0;
 }
 
 .social-networks {
@@ -16,8 +18,8 @@ header {
   }
 }
 
-.button-layout-header {
-  text-align: center;
-  padding-bottom: 10px;
+.layout-purchase {
+  position: relative;
+  left: calc(50% - 76px);
 }
 
